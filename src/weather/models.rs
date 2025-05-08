@@ -10,9 +10,7 @@ pub struct WeatherResponse {
 
 #[derive(Deserialize, Debug)]
 pub struct Weather {
-    pub description: String,
-    pub main: String,
-    pub icon: String
+    pub description: String
 }
 
 #[derive(Deserialize, Debug)]
@@ -26,6 +24,5 @@ pub struct Main {
 
 #[derive(Deserialize, Debug)]
 pub struct Wind {
-    pub speed: f32,
-    pub deg: i32
+    pub speed: f32
 } 
