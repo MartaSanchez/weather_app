@@ -1,10 +1,3 @@
-#![allow(warnings)]
-
-/*
-TODO:
-Poner la descripcion con la primera letra en mayuscula
-*/
-
 use std::io;
 use std::env;
 use dotenv::dotenv;
